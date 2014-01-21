@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(42, 42, 42);
+    /*background: rgba(3,3,3,0.95);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 56%, rgba(3,3,3,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(3,3,3,0.95)), color-stop(0%, rgba(3,3,3,0.95)), color-stop(56%, rgba(3,3,3,0.9)), color-stop(100%, rgba(3,3,3,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 56%, rgba(3,3,3,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 56%, rgba(3,3,3,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 56%, rgba(3,3,3,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.95) 0%, rgba(3,3,3,0.9) 56%, rgba(3,3,3,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );*/
+    font-family: Montserrat, sans-serif;
+}
+
+#header {
+    color: white;
+    text-align: center;
+}
+
+#schmatz {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: rgb(70, 198, 230);
+    font-size: 50px;
+}
+
+#description {
+    position: relative;
+    top: -30px;
+}
+
+#icons {
+    text-align: center;
+}
+
+.Mail {
+    background-image: url(images/mail.png);
+}
+
+.LinkedIn {
+    background-image: url(images/linkedin.png);
+}
+.GitHub {
+    background-image: url(images/github.png);
+}
+
+.Twitter {
+    background-image: url(images/twitter.png);
+}
+
+.Projects {
+    background-image: url(images/projects.png);
+}
+
+.Phone {
+    background-image: url(images/phone.png);
+}
+
+.icon {
+    display: inline-block;
+    margin: 19px;
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px;
+}
+
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+
+}
+
+#contact {
+    color: white;
+    float: left;
+    position: relative;
+    left: -50%;
+    padding: 10px;
+    border: 1px solid darkslategrey;
+}
+
+
+#contact p span {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: rgb(70, 198, 230);
+    font-size: 16pt;
+}
+
+#email_link {
+    color: white;
+
+}
+
+#content {
+    padding: 100px;
+}

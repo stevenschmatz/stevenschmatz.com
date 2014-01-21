@@ -1,0 +1,26 @@
+
+body {
+    padding: 10px;
+    color: black;
+}
+.header {
+    border: 1px solid #030303;
+    background-color: darkgrey;
+    color: white;
+    padding: inherit;
+    text-align: center;
+}
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 34pt;
+
+}
+p {
+    font-size: 16pt;
+    line-height: 1.4em;
+}
+#credits {
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: overline underline;
+}
