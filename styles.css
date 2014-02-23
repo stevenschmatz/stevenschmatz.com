@@ -118,8 +118,33 @@ body {
 
 #mathelo_div {
     width: 30%;
-    margin-right: auto;
-    margin-left: auto;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
+}
+#pebble_div {
+    width: 30%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    float: left;
+}
+
+.Pebble {
+    background: rgb(50,50,50) center no-repeat url(images/pebble.png);
+    display: inline-block;
+    margin: 19px;
+    width: 128px;
+    height: 128px;
+    text-indent: -9999px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+#firstrow {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#experiment {
 }
